@@ -15,15 +15,15 @@
 @font-face {
     font-family: star;
     src: url(../../../../../plugins/woocommerce/assets/fonts/star.eot);
-    src: url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.eot#1600714823) format("embedded-opentype"), url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.woff) format("woff"), url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.ttf) format("truetype"), url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/star.svg#star) format("svg");
+    src: url(../../../../../plugins/woocommerce/assets/fonts/star.eot#1600714823) format("embedded-opentype"), url(../../../../../plugins/woocommerce/assets/fonts/star.woff) format("woff"), url(../../../../../plugins/woocommerce/assets/fonts/star.ttf) format("truetype"), url(../../../../../plugins/woocommerce/assets/fonts/star.svg#star) format("svg");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: WooCommerce;
-    src: url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.eot);
-    src: url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.eot#1600714823) format("embedded-opentype"), url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.woff) format("woff"), url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.ttf) format("truetype"), url(https://politicalwp.themeslr.com/wp-content/plugins/woocommerce/assets/css/../fonts/WooCommerce.svg#WooCommerce) format("svg");
+    src: url(../../../../../plugins/woocommerce/assets/fonts/WooCommerce.eot);
+    src: url(../../../../../plugins/woocommerce/assets/fonts/WooCommerce.eot#1600714823) format("embedded-opentype"), url(../../../../../plugins/woocommerce/assets/fonts/WooCommerce.woff) format("woff"), url(../../../../../plugins/woocommerce/assets/fonts/WooCommerce.ttf) format("truetype"), url(../../../../../plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -7773,7 +7773,7 @@ h2.heading-bottom.text-right:after {
 @font-face {
     font-family: 'FontAwesome';
     src: url(../../../../../themes/politicalwp/fonts/fontawesome-webfont.eot#1600714823);
-    src: url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/fontawesome-webfont.eot#1600714823) format('embedded-opentype'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/fontawesome-webfont.woff2#1600714823) format('woff2'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/fontawesome-webfont.woff#1600714823) format('woff'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/fontawesome-webfont.ttf#1600714823) format('truetype'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+    src: url(../../../../../themes/politicalwp/fonts/fontawesome-webfont.eot#1600714823) format('embedded-opentype'), url(../../../../../themes/politicalwp/fonts/fontawesome-webfont.woff2#1600714823) format('woff2'), url(../../../../../themes/politicalwp/fonts/fontawesome-webfont.woff#1600714823) format('woff'), url(../../../../../themes/politicalwp/fonts/fontawesome-webfont.ttf#1600714823) format('truetype'), url(../../../../../themes/politicalwp/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -11143,7 +11143,7 @@ th {
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../../../../../themes/politicalwp/fonts/glyphicons-halflings-regular.eot);
-    src: url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/glyphicons-halflings-regular.eot#1600714823) format('embedded-opentype'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/glyphicons-halflings-regular.woff) format('woff'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(../../../../../themes/politicalwp/fonts/glyphicons-halflings-regular.eot#1600714823) format('embedded-opentype'), url(../../../../../themes/politicalwp/fonts/glyphicons-halflings-regular.woff) format('woff'), url(../../../../../themes/politicalwp/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../../../../../themes/politicalwp/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
@@ -34233,8 +34233,8 @@ textarea {
 
 @font-face {
     font-family: 'simple-line-icons';
-    src: url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/Simple-Line-Icons.eot#1600714823);
-    src: url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/Simple-Line-Icons.eot#1600714823) format('embedded-opentype'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/Simple-Line-Icons.ttf#1600714823) format('truetype'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/Simple-Line-Icons.woff2#1600714823) format('woff2'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/Simple-Line-Icons.woff#1600714823) format('woff'), url(https://politicalwp.themeslr.com/wp-content/themes/politicalwp/css/../fonts/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons) format('svg');
+    src: url(../../../../../themes/politicalwp/fonts/simple-line-icons/Simple-Line-Icons.eot#1600714823);
+    src: url(../../../../../themes/politicalwp/fonts/simple-line-icons/Simple-Line-Icons.eot#1600714823) format('embedded-opentype'), url(../../../../../themes/politicalwp/fonts/simple-line-icons/Simple-Line-Icons.ttf#1600714823) format('truetype'), url(../../../../../themes/politicalwp/fonts/simple-line-icons/Simple-Line-Icons.woff2#1600714823) format('woff2'), url(../../../../../themes/politicalwp/fonts/simple-line-icons/Simple-Line-Icons.woff#1600714823) format('woff'), url(../../../../../themes/politicalwp/fonts/simple-line-icons/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -36406,8 +36406,8 @@ input:focus,
 
 @font-face {
     font-family: 'lvca-icomoon';
-    src: url(https://politicalwp.themeslr.com/wp-content/plugins/addons-for-visual-composer/assets/css/fonts/icomoon/icomoon.eot#1600714823);
-    src: url(https://politicalwp.themeslr.com/wp-content/plugins/addons-for-visual-composer/assets/css/fonts/icomoon/icomoon.eot#1600714823) format('embedded-opentype'), url(https://politicalwp.themeslr.com/wp-content/plugins/addons-for-visual-composer/assets/css/fonts/icomoon/icomoon.ttf#1600714823) format('truetype'), url(https://politicalwp.themeslr.com/wp-content/plugins/addons-for-visual-composer/assets/css/fonts/icomoon/icomoon.woff#1600714823) format('woff'), url(https://politicalwp.themeslr.com/wp-content/plugins/addons-for-visual-composer/assets/css/fonts/icomoon/icomoon.svg?bh4obs#icomoon) format('svg');
+    src: url(../../../../../themes/politicalwp/fonts/icomoon/icomoon.eot#1600714823);
+    src: url(../../../../../themes/politicalwp/fonts/icomoon/icomoon.eot#1600714823) format('embedded-opentype'), url(../../../../../themes/politicalwp/fonts/icomoon/icomoon.ttf#1600714823) format('truetype'), url(../../../../../themes/politicalwp/fonts/icomoon/icomoon.woff#1600714823) format('woff'), url(../../../../../themes/politicalwp/fonts/icomoon/icomoon.svg?bh4obs#icomoon) format('svg');
     font-weight: 400;
     font-style: normal
 }
