@@ -24909,6 +24909,7 @@ body #navbar .menu-item:hover>a {
 }
 
 #navbar .menu>.menu-item:hover .sub-menu {
+    margin-top: 17px;
     opacity: 1;
     visibility: visible;
     top: 100%
@@ -35461,6 +35462,10 @@ footer .widget_nav_menu li::before,
 #navbar .menu-item:hover .sub-menu .mt-icon-list-item:hover .mt-icon-list-icon-holder-inner i,
 #navbar .menu-item:hover .sub-menu .mt-icon-list-item:hover .mt-icon-list-text {
     color: #e3111a !important
+}
+
+#navbar ul li{
+    height: 50px;
 }
 
 .tagcloud>a:hover,
