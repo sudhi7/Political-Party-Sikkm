@@ -14304,7 +14304,6 @@ body .wpb_gallery_slides ul li {
 }
 
 .wpb_video_widget .wpb_video_wrapper {
-    padding-top: 56.25%;
     position: relative;
     width: 100%
 }
@@ -14312,10 +14311,6 @@ body .wpb_gallery_slides ul li {
 .wpb_video_widget .wpb_video_wrapper>div {
     padding-top: 0 !important;
     position: static
-}
-
-.wpb_video_widget.vc_video-aspect-ratio-169 .wpb_video_wrapper {
-    padding-top: 56.25%
 }
 
 .wpb_video_widget.vc_video-aspect-ratio-43 .wpb_video_wrapper {
