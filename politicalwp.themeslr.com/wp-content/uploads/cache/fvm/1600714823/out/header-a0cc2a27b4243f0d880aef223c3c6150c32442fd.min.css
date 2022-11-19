@@ -14451,7 +14451,6 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     color: #fff;
     background-color: #337ab7;
-    border-color: #2e6da4
 }
 
 .btn-primary:hover,
@@ -25778,7 +25777,6 @@ p.subtitle {
 }
 
 .form-control {
-    border-color: rgb(0, 173, 241);
     border-width: 2px;
     color: rgba(85, 85, 85, .8);
     font-size: 15px;
@@ -30480,7 +30478,7 @@ form#login .submit_button {
 }
 
 .btn.btn-primary {
-    background-color: #3498db;
+    background-color: #ed1e36;
     color: #fff
 }
 
