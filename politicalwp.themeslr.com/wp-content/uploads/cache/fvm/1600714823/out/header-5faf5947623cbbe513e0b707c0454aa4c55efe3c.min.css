@@ -11982,7 +11982,6 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff
 }
 
 input,
@@ -27334,7 +27333,7 @@ article.single-post a img {
 }
 
 .page article.type-page {
-    padding: 80px 0
+    padding: 20px 0
 }
 
 .page .high-padding article.type-page,
