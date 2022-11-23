@@ -9,8 +9,10 @@
     <link rel="pingback" href="../xmlrpc.html">
     <link rel="shortcut icon" href="../wp-content/themes/politicalwp/images/theme_favicon.png">
     <script>function fvmuag() { if (navigator.userAgent.match(/x11.*fox\/54|oid\s4.*xus.*ome\/62|oobot|ighth|tmetr|eadles|ingdo/i)) return !1; if (navigator.userAgent.match(/x11.*ome\/75\.0\.3770\.100/i)) { var e = screen.width, t = screen.height; if ("number" == typeof e && "number" == typeof t && 862 == t && 1367 == e) return !1 } return !0 }</script>
-    <title>Constituencies - SKM</title>
-    <link rel="alternate" type="text/calendar" title="PoliticalWP &raquo; iCal Feed" href="../indexedf3.html?ical=1" />
+    <title>What We Fight For &#8211; PoliticalWP</title>
+    <link rel="alternate" type="text/calendar" title="PoliticalWP &raquo; iCal Feed"
+        href="../events/indexedf3.html?ical=1" />
+    <!-- This site uses the Google Analytics by MonsterInsights plugin v7.12.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
     <script type="text/javascript" data-cfasync="false">var mi_version = '7.12.2';
         var mi_track_user = true;
         var mi_no_track_reason = '';
@@ -54,6 +56,7 @@
         } else {
             console.log("");
             (function () {
+                /* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
                 var noopfn = function () {
                     return null;
                 };
@@ -220,567 +223,6 @@
         }
     </style>
     <style id="fvm-header-1" media="only screen and (max-width: 768px)">
-        .tribe-mobile #main {
-            padding-top: 0
-        }
-
-        a.tribe-events-gmap {
-            display: block
-        }
-
-        #tribe-events-content {
-            width: 100%
-        }
-
-        .tribe-events-day .tribe-events-day-time-slot .tribe-events-day-time-slot-heading {
-            margin-top: 2em
-        }
-
-        .tribe-events-day .tribe-events-day-time-slot .type-tribe_events {
-            margin-left: 0
-        }
-
-        #tribe-events #tribe-events-footer,
-        #tribe-events #tribe-events-header {
-            padding: 0
-        }
-
-        #tribe-events-footer,
-        #tribe-events-header {
-            position: relative
-        }
-
-        .events-list #tribe-events-footer,
-        .single-tribe_events #tribe-events-footer,
-        .tribe-events-day #tribe-events-footer,
-        .tribe-events-map #tribe-events-footer,
-        .tribe-events-photo #tribe-events-footer {
-            border-top: 0
-        }
-
-        #tribe-events-footer:after,
-        #tribe-events-footer:before,
-        #tribe-events-header:after,
-        #tribe-events-header:before {
-            background-color: #fff;
-            content: "";
-            display: block;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            width: 1px;
-            z-index: 1
-        }
-
-        #tribe-events-footer:before,
-        #tribe-events-header:before {
-            right: 50%
-        }
-
-        #tribe-events-footer:after,
-        #tribe-events-header:after {
-            left: 50%
-        }
-
-        #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next,
-        #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous,
-        #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-next,
-        #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-previous {
-            box-sizing: border-box;
-            display: block;
-            margin: 0;
-            width: 50%
-        }
-
-        .tribe-events-notices+#tribe-events-header {
-            display: none
-        }
-
-        .tribe-events-sub-nav li a {
-            background: #666;
-            color: #fff;
-            display: block;
-            padding: 10px 20px;
-            position: relative;
-            white-space: normal
-        }
-
-        .tribe-events-sub-nav li a:hover,
-        .tribe-events-sub-nav li a:visited {
-            color: #fff
-        }
-
-        .tribe-events-sub-nav .tribe-events-nav-left a span {
-            display: block;
-            content: "\ab";
-            position: absolute;
-            left: 10px;
-            top: 10px
-        }
-
-        .tribe-events-sub-nav .tribe-events-nav-right a span {
-            display: block;
-            content: "\00BB";
-            position: absolute;
-            right: 10px;
-            top: 10px
-        }
-
-        .tribe-events-list .tribe-events-event-image {
-            float: left;
-            margin: 0 3% 0 0
-        }
-
-        .tribe-events-list .tribe-events-event-image img {
-            width: auto;
-            max-height: 400px
-        }
-
-        .tribe-events-list .tribe-events-event-image+div.tribe-events-content {
-            float: none;
-            position: relative;
-            width: 100%
-        }
-
-        .tribe-events-list .tribe-events-event-image+div.tribe-events-content.tribe-events-list-event-description {
-            position: static
-        }
-
-        .tribe-events-list .tribe-events-loop .tribe-events-event-meta .recurringinfo {
-            display: block;
-            margin: 4px 0 0
-        }
-
-        .tribe-events-list .tribe-events-loop .tribe-events-event-meta .recurringinfo .tribe-events-divider {
-            display: none
-        }
-
-        .tribe-events-list .time-details,
-        .tribe-events-list .tribe-event-schedule-details {
-            margin-bottom: 0;
-            padding: 0 12px
-        }
-
-        .tribe-events-list .tribe-events-venue-details {
-            border-top: 1px solid #eee;
-            margin-top: 12px;
-            padding: 8px 12px 0
-        }
-
-        #tribe-events .tribe-events-loop .tribe-events-content {
-            margin: 0;
-            padding: 0
-        }
-
-        .tribe-events-loop .tribe-events-event-meta {
-            background: #fafafa;
-            border: 1px solid #eee;
-            margin-top: 12px;
-            padding: 12px 0 15px
-        }
-
-        .tribe-events-list-separator-year {
-            display: none
-        }
-
-        .tribe-events-list-separator-month {
-            margin: 36px 0 0
-        }
-
-        .tribe-events-event-cost .tribe-out-of-stock,
-        .tribe-events-event-cost .tribe-tickets-left {
-            font-size: 12px;
-            line-height: 15px;
-            white-space: nowrap
-        }
-
-        .single-tribe_events .tribe-events-schedule {
-            background: #fafafa;
-            border: 1px solid #eee;
-            margin: 18px 0 8px;
-            padding: 12px
-        }
-
-        .single-tribe_events .tribe-events-schedule .tribe-events-cost,
-        .single-tribe_events .tribe-events-schedule h3 {
-            display: block;
-            font-size: 15px;
-            font-weight: 400;
-            line-height: 1.25;
-            margin: 0
-        }
-
-        .single-tribe_events .tribe-events-schedule h3 {
-            margin-bottom: 2px;
-            white-space: normal
-        }
-
-        .single-tribe_events .tribe-events-schedule .recurringinfo .tribe-events-divider,
-        .single-tribe_events .tribe-events-schedule .tribe-events-divider {
-            display: none
-        }
-
-        .single-tribe_events .tribe-events-event-image {
-            margin-bottom: 10px
-        }
-
-        .single-tribe_events .tribe-events-cal-links {
-            margin-bottom: 30px
-        }
-
-        .single-tribe_events .tribe-events-cal-links a {
-            margin-top: 15px
-        }
-
-        .single-tribe_events .tribe-events-event-meta {
-            margin: 15px 0 20px;
-            padding: 4% 0
-        }
-
-        .single-tribe_events .tribe-events-venue-map {
-            width: 90%;
-            margin: 5px auto 0;
-            display: block;
-            float: none
-        }
-
-        #tribe-events div.tribe-events-single-event-description {
-            padding: 0;
-            margin-bottom: 10px
-        }
-
-        .tribe-events-meta-group .tribe-events-single-section-title {
-            margin-top: 0
-        }
-
-        .tribe-events-event-meta .tribe-events-meta-group {
-            margin-bottom: 0
-        }
-
-        .tribe-events-event-meta .column,
-        .tribe-events-event-meta .tribe-events-meta-group {
-            float: none;
-            width: 100%
-        }
-
-        .tribe-events-calendar .tribe-events-has-events:after {
-            content: "";
-            display: block;
-            height: 8px;
-            width: 8px;
-            padding: 0;
-            border-radius: 50%;
-            background-color: #333;
-            margin: 5px auto
-        }
-
-        .tribe-events-calendar .tribe-events-has-events.tribe-events-othermonth:after {
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-            filter: alpha(opacity=40);
-            -moz-opacity: .4;
-            -khtml-opacity: .4;
-            opacity: .4
-        }
-
-        #tribe-mobile-container {
-            display: block;
-            margin: 0 auto 10px
-        }
-
-        #tribe-mobile-container .type-tribe_events {
-            padding: 20px 0 16px;
-            margin-bottom: 0
-        }
-
-        #tribe-mobile-container .type-tribe_events~.type-tribe_events {
-            padding: 15px 0;
-            border-top: 1px solid #ddd
-        }
-
-        #tribe-mobile-container .type-tribe_events h4 {
-            font-size: 1.25em;
-            margin: 0 0 2px;
-            line-height: 1.35
-        }
-
-        #tribe-mobile-container .type-tribe_events .time-details {
-            font-size: 13px;
-            font-weight: 700;
-            margin: 0 0 2px
-        }
-
-        #tribe-mobile-container .type-tribe_events .tribe-events-event-image {
-            float: left;
-            width: 25%;
-            margin: 5px 15px 10px 0
-        }
-
-        #tribe-mobile-container .type-tribe_events .tribe-events-event-image a {
-            display: block
-        }
-
-        #tribe-mobile-container .type-tribe_events .entry-summary.description {
-            padding: 0;
-            margin-bottom: 0
-        }
-
-        #tribe-mobile-container .type-tribe_events .tribe-events-read-more {
-            margin-top: 8px;
-            display: inline-block
-        }
-
-        .tribe-mobile-day-heading {
-            font-size: 16px;
-            margin-bottom: 10px
-        }
-
-        .tribe-events-calendar td.tribe-events-has-events:hover {
-            cursor: pointer
-        }
-
-        #tribe-events-content .tribe-events-calendar td {
-            height: 45px;
-            padding: 0
-        }
-
-        .tribe-events-calendar td .tribe-events-viewmore,
-        .tribe-events-calendar td .type-tribe_events {
-            display: none
-        }
-
-        .tribe-events-calendar td div[id*=tribe-events-daynum-],
-        .tribe-events-calendar td div[id*=tribe-events-daynum-] a {
-            background: none;
-            font-size: 16px;
-            line-height: 1;
-            margin-top: 6px;
-            padding: 0;
-            text-align: center
-        }
-
-        .tribe-events-calendar .mobile-active.tribe-events-past div[id*=tribe-events-daynum-],
-        .tribe-events-calendar .mobile-active.tribe-events-past div[id*=tribe-events-daynum-]>a {
-            color: #fff
-        }
-
-        .tribe-events-calendar .mobile-active div[id*=tribe-events-daynum-],
-        .tribe-events-calendar .mobile-active div[id*=tribe-events-daynum-] a,
-        .tribe-events-calendar .tribe-events-past.tribe-events-has-events:after,
-        .tribe-events-calendar td.mobile-active {
-            background-color: #999;
-            color: #fff
-        }
-
-        .tribe-events-calendar .mobile-active.tribe-events-has-events:after,
-        .tribe-events-calendar .tribe-events-present.tribe-events-has-events:after {
-            background: #fff
-        }
-
-        .tribe-events-calendar .tribe-events-present,
-        .tribe-events-calendar .tribe-events-present.mobile-active div[id*=tribe-events-daynum-],
-        .tribe-events-calendar .tribe-events-present.mobile-active div[id*=tribe-events-daynum-] a,
-        .tribe-events-calendar td.tribe-events-present.mobile-active {
-            background-color: #666
-        }
-
-        #tribe-mobile-container .tribe-events-viewmore {
-            border-top: 1px solid #ddd;
-            margin: 5px 0 0;
-            padding: 15px 0 5px
-        }
-
-        .tribe-bar-disabled {
-            float: none;
-            width: 100%
-        }
-
-        .tribe-bar-disabled #tribe-bar-views .tribe-bar-views-list {
-            padding: 0
-        }
-
-        #tribe-events-pg-template {
-            padding: 40px 20px 20px
-        }
-
-        #tribe-events-content,
-        #tribe-events-content.tribe-events-list {
-            margin-bottom: 20px
-        }
-
-        .tribe-events-promo {
-            margin-top: 10px;
-            text-align: center
-        }
-
-        #tribe-events-footer~a.tribe-events-ical.tribe-events-button {
-            border-radius: 0;
-            display: block;
-            float: none;
-            font-size: 12px;
-            font-weight: 400;
-            height: 32px;
-            line-height: 32px;
-            margin: 0 auto 10px;
-            padding: 0 10px;
-            text-align: center
-        }
-
-        .tribe-theme-twentyfourteen .entry-content .tribe-events-calendar th,
-        .tribe-theme-twentyfourteen .tribe-events-calendar th {
-            border-width: 0;
-            padding: 3px
-        }
-
-        .tribe-theme-twentyfourteen #tribe-events-pg-template {
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 0
-        }
-
-        .tribe-theme-twentyfourteen #tribe-events-bar {
-            margin-bottom: 10px
-        }
-
-        .tribe-theme-twentyfourteen.events-archive .entry-content {
-            width: 90%
-        }
-
-        .tribe-is-responsive.tribe-mobile .tribe-events-page-title {
-            margin-top: .5em
-        }
-
-        .tribe-theme-twentyfifteen #tribe-events {
-            margin-left: 0;
-            margin-right: 0
-        }
-
-        .tribe-theme-twentyfifteen #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
-            padding-left: 6px;
-            padding-right: 6px
-        }
-
-        .tribe-theme-twentysixteen #tribe-events-pg-template {
-            padding-top: 0
-        }
-
-        #tribe-events-header .tribe-events-sub-nav li a {
-            display: none
-        }
-
-        .tribe-events-list .tribe-events-loop .tribe-events-event-meta .recurringinfo {
-            display: block;
-            padding: 0
-        }
-
-        .single-tribe_events .tribe-events-schedule .recurringinfo {
-            display: block;
-            margin: 2px 0 0
-        }
-
-        .tribe-events-schedule {
-            margin: 18px 0
-        }
-
-        .single-tribe_events .tribe-events-event-image {
-            margin-bottom: 10px
-        }
-
-        .tribe-events-list-separator-month {
-            margin: 20px 0
-        }
-
-        #tribe-mobile-container .type-tribe_events~.type-tribe_events {
-            border-top: 1px dotted #2f2f2f
-        }
-
-        .tribe-events-calendar thead th {
-            padding: 7px 1em
-        }
-
-        #tribe-events-content .tribe-events-calendar td {
-            transition: none
-        }
-
-        #tribe-events-content .tribe-events-calendar td:hover {
-            background: none;
-            box-shadow: none
-        }
-
-        #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth:hover {
-            background: #f9f9f9
-        }
-
-        .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-],
-        .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-]>a {
-            background: none;
-            color: #999
-        }
-
-        .tribe-events-calendar td div[id*=tribe-events-daynum-],
-        .tribe-events-calendar td div[id*=tribe-events-daynum-] a {
-            background: none;
-            padding: 0;
-            color: #333
-        }
-
-        #tribe-mobile-container .tribe-events-viewmore {
-            border-top: 1px dotted #2f2f2f
-        }
-
-        .tribe-events-calendar div[id*=tribe-events-daynum-] a:hover {
-            color: #333
-        }
-
-        .tribe-events-calendar .mobile-active.tribe-events-past div[id*=tribe-events-daynum-],
-        .tribe-events-calendar .mobile-active.tribe-events-past div[id*=tribe-events-daynum-]>a {
-            color: #fff
-        }
-
-        #tribe-events-content .tribe-events-calendar .mobile-active:hover,
-        #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active,
-        #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active div[id*=tribe-events-daynum-],
-        #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active div[id*=tribe-events-daynum-] a,
-        .tribe-events-calendar .mobile-active div[id*=tribe-events-daynum-],
-        .tribe-events-calendar .mobile-active div[id*=tribe-events-daynum-] a,
-        .tribe-events-calendar td.mobile-active {
-            background-color: #21759b;
-            color: #fff
-        }
-
-        .tribe-events-calendar .tribe-events-present.tribe-events-has-events:after {
-            background: #333
-        }
-
-        .tribe-events-calendar .mobile-active.tribe-events-has-events:after {
-            background-color: #fff
-        }
-
-        #tribe-events-content .tribe-events-calendar td.tribe-events-present:hover,
-        .tribe-events-calendar td.tribe-events-present,
-        .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-],
-        .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a {
-            background-color: #dedede;
-            color: #333
-        }
-
-        #tribe-events-content .tribe-events-calendar td.tribe-events-present.mobile-active:hover,
-        .tribe-events-calendar td.tribe-events-present.mobile-active,
-        .tribe-events-calendar td.tribe-events-present.mobile-active div[id*=tribe-events-daynum-],
-        .tribe-events-calendar td.tribe-events-present.mobile-active div[id*=tribe-events-daynum-] a {
-            background-color: #21759b;
-            color: #fff
-        }
-
-        .tribe-theme-twentyfourteen #tribe-events-pg-template {
-            padding-left: 0;
-            padding-right: 0
-        }
-
-        .tribe-theme-twentyfourteen #tribe-events-pg-template #tribe-events {
-            padding: 10px
-        }
-    </style>
-    <style id="fvm-header-3" media="only screen and (max-width: 768px)">
         .woocommerce table.shop_table_responsive thead,
         .woocommerce-page table.shop_table_responsive thead {
             display: none
@@ -1014,25 +456,32 @@
         }
     </style>
     <link rel='stylesheet' id='fvm-header-0-css'
-        href='../wp-content/uploads/cache/fvm/1600714823/out/header-bd4f160203b74dcb76caaf173553a3175ffb42fe.min.css'
+        href='../wp-content/uploads/cache/fvm/1600714823/out/header-c9a3ab654f82089740c8cde1fb910e7007eabd28.min.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='fvm-header-2-css'
-        href='../wp-content/uploads/cache/fvm/1600714823/out/header-60bd117b452336916ea166f76d7003ee322fb463.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='fvm-header-4-css'
-        href='../wp-content/uploads/cache/fvm/1600714823/out/header-a0cc2a27b4243f0d880aef223c3c6150c32442fd.min.css'
+        href='../wp-content/uploads/cache/fvm/1600714823/out/header-5faf5947623cbbe513e0b707c0454aa4c55efe3c.min.css'
         type='text/css' media='all' />
     <script type='text/javascript' src='../wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script>
-    <script type='text/javascript' id='fvm-header-1-js-extra'>/*  */
-        var tribe_js_config = { "permalink_settings": "\/%postname%\/", "events_post_type": "tribe_events", "events_base": "https:\/\/politicalwp.themeslr.com\/events\/", "update_urls": { "shortcode": { "list": true, "month": true, "day": true } }, "debug": "" };
+    <script type='text/javascript' id='fvm-header-0-js-extra'>/*  */
         var monsterinsights_frontend = { "js_events_tracking": "true", "download_extensions": "doc,pdf,ppt,zip,xls,docx,pptx,xlsx", "inbound_paths": "[]", "home_url": "https:\/\/politicalwp.themeslr.com", "hash_tracking": "false" };
+/*  */</script>
+    <script defer type='text/javascript'
+        src='../wp-content/uploads/cache/fvm/1600714823/out/header-196a8131980f9294edc2d89b0680dc429d777c1f.min.js'
+        id='fvm-header-0-js'></script>
+    <script type='text/javascript' id='fvm-header-2-js-extra'>/*  */
         var give_global_vars = { "ajaxurl": "https:\/\/politicalwp.themeslr.com\/wp-admin\/admin-ajax.php", "checkout_nonce": "3bfad330e6", "currency": "USD", "currency_sign": "$", "currency_pos": "before", "thousands_separator": ",", "decimal_separator": ".", "no_gateway": "Please select a payment method.", "bad_minimum": "The minimum custom donation amount for this form is", "bad_maximum": "The maximum custom donation amount for this form is", "general_loading": "Loading...", "purchase_loading": "Please Wait...", "number_decimals": "0", "give_version": "2.8.0", "magnific_options": { "main_class": "give-modal", "close_on_bg_click": false }, "form_translation": { "payment-mode": "Please select payment mode.", "give_first": "Please enter your first name.", "give_email": "Please enter a valid email address.", "give_user_login": "Invalid email address or username.", "give_user_pass": "Enter a password.", "give_user_pass_confirm": "Enter the password confirmation.", "give_agree_to_terms": "You must agree to the terms and conditions." }, "confirm_email_sent_message": "Please check your email and click on the link to access your complete donation history.", "ajax_vars": { "ajaxurl": "https:\/\/politicalwp.themeslr.com\/wp-admin\/admin-ajax.php", "ajaxNonce": "19521368c0", "loading": "Loading", "select_option": "Please select an option", "default_gateway": "paypal", "permalinks": "1", "number_decimals": 0 }, "cookie_hash": "a896d4c9da5b834df1d8cc2165865f62", "session_nonce_cookie_name": "wp-give_session_reset_nonce_a896d4c9da5b834df1d8cc2165865f62", "session_cookie_name": "wp-give_session_a896d4c9da5b834df1d8cc2165865f62", "delete_session_nonce_cookie": "0" };
         var giveApiSettings = { "root": "https:\/\/politicalwp.themeslr.com\/wp-json\/give-api\/v2\/", "rest_base": "give-api\/v2" };
 /*  */</script>
     <script defer type='text/javascript'
-        src='../wp-content/uploads/cache/fvm/1600714823/out/header-0c047eff16c0891c3d45f49437e9782f0c94c03d.min.js'
-        id='fvm-header-1-js'></script>
+        src='../wp-content/uploads/cache/fvm/1600714823/out/header-914a4d53fc79250195d7c8e74d0e4157f708f3bb.min.js'
+        id='fvm-header-2-js'></script>
     <link rel="https://api.w.org/" href="../wp-json/index.html" />
+    <link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/6021.json" />
+    <link rel="canonical" href="index.html" />
+    <link rel="alternate" type="application/json+oembed"
+        href="../wp-json/oembed/1.0/embedfe86.json?url=https%3A%2F%2Fpoliticalwp.themeslr.com%2Fwhat-we-fight-for%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="../wp-json/oembed/1.0/embed1829?url=https%3A%2F%2Fpoliticalwp.themeslr.com%2Fwhat-we-fight-for%2F&amp;format=xml" />
     <meta name="framework" content="Redux 4.1.20" />
     <meta name="generator" content="Give v2.8.0" />
     <meta name="tec-api-version" content="v1">
@@ -1121,6 +570,11 @@
             color: #1a1b22;
         }
 
+        #navbar .menu-item.current_page_ancestor.current_page_parent>a,
+        #navbar .menu-item.current_page_item.current_page_parent>a {
+            background: #e3111a;
+        }
+
         #navbar .sub-menu,
         .navbar ul li ul.sub-menu {
             background-color: #ffffff;
@@ -1130,18 +584,9 @@
             color: #1a1b22;
         }
 
-        #navbar ul.sub-menu li a:hover {
-            background-color: transparent;
-        }
-
-        #navbar ul.sub-menu li a:hover {
-            color: #E3111A;
-        }
-
         body {
             font-family: "Open Sans";
             font-display: swap;
-            background-color: #e0e0e0;
         }
 
         h1,
@@ -1218,14 +663,6 @@
             color: #000000;
         }
 
-        footer .footer-top {
-            background-color: #021426;
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-image: url('../wp-content/themes/politicalwp/images/politicalwp_crowd.jpg');
-            background-size: cover;
-        }
-
         footer .footer-top h1.widget-title,
         footer .footer-top h3.widget-title,
         footer .footer-top .widget-title {
@@ -1259,6 +696,13 @@
             color: #ffffff;
         }
 
+        .footer {
+            padding-top: 2%;
+            padding-left: 77.6667px;
+            padding-right: 77.3333px;
+            background-image: linear-gradient(to right, #f78320, #ed1e26, #01a451);
+        }
+
         .header-nav-actions .donate-now {
             background: #E3111A;
         }
@@ -1275,34 +719,42 @@
             font-display: swap;
         }
 
-        .footer {
-            padding-top: 2%;
-            padding-left: 77.6667px;
-            padding-right: 77.3333px;
-            background-image: linear-gradient(to right, #f78320, #ed1e26, #01a451);
-        }
-
-        .tribe-events-list-event-title {
-            color: #e3111a;
-        }
-
-        .add-button {
-            position: absolute;
-            top: 0;
-            right: 0;
-            text-decoration: none;
-            border: #e3111a solid 1px;
-            padding: 5px 10px;
-            border-radius: 15px;
+        body {
+            background-color: #e0e0e0;
         }
 
         .loginButton {
-			background-color: #24a0ed;
-			color: #fff;
-			padding-left: 10px;
-			padding-right: 10px;
-		}
+            background-color: #24a0ed;
+            color: #fff;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1493851574796 {
+            margin-bottom: 0px !important;
+            padding-top: 0px !important;
+            padding-bottom: 80px !important;
+            background-color: #e0e0e0 !important;
+        }
 
+        .vc_custom_1493851884649 {
+            padding-top: 70px !important;
+            padding-bottom: 90px !important;
+            background-image: url(../wp-content/uploads/2017/05/politicalwp_crowd_black17e8.jpg?id=6388) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1493852155456 {
+            padding-top: 40px !important;
+            padding-bottom: 80px !important;
+        }
+
+        .vc_custom_1450339501388 {
+            padding-top: 0px !important;
+        }
     </style><noscript>
         <style>
             .wpb_animate_when_almost_visible {
@@ -1313,7 +765,7 @@
 </head>
 
 <body data-rsssl=1
-    class="archive post-type-archive post-type-archive-tribe_events theme-politicalwp woocommerce-no-js tribe-no-js tribe-filter-live          wpb-js-composer js-comp-ver-6.4.0 vc_responsive events-list events-archive tribe-events-style-full tribe-events-style-theme tribe-theme-parent-politicalwp tribe-theme-child-politicalwp-child tribe-events-page-template">
+    class="page-template-default page page-id-6021 theme-politicalwp woocommerce-no-js tribe-no-js       header1   wpb-js-composer js-comp-ver-6.4.0 vc_responsive">
     <!-- PAGE #page -->
     <div id="page" class="hfeed site">
         <header class="header1">
@@ -1345,8 +797,7 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
-                                                        <div class="mt-icon-list-item"><a
-                                                                href="../what-we-fight-for/index.html">
+                                                        <div class="mt-icon-list-item"><a href="../what-we-fight-for/index.html">
                                                                 <p class="mt-icon-list-text"
                                                                     style="font-size: 12px; color: #232331">What We
                                                                     Fight for</p>
@@ -1358,7 +809,7 @@
                                                                     Achieved</p>
                                                             </a></div>
                                                         <div class="mt-icon-list-item"><a
-                                                                href="../goals-set/index.html">
+                                                                href="#">
                                                                 <p class="mt-icon-list-text"
                                                                     style="font-size: 12px; color: #232331">Goals Set
                                                                 </p>
@@ -1443,7 +894,7 @@
                                                                 </p>
                                                             </a></div>
                                                         <div class="mt-icon-list-item"><a
-                                                                href="../student-wing/index.html">
+                                                                href="../nari-wing/index.html">
                                                                 <p class="mt-icon-list-text"
                                                                     style="font-size: 12px; color: #232331">Student wing
                                                                 </p>
@@ -1458,8 +909,8 @@
                                     </div>
                                 </li>
                                 <li id="menu-item-6286"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-6286">
-                                    <a href="#">Constituencies</a>
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6286">
+                                    <a href="../constituencies/index.html">Constituencies</a>
                                 </li>
                                 <li id="menu-item-6286"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6286">
@@ -1470,221 +921,64 @@
                                         href="../gallery/party-gallery/index.html">Gallery</a></li>
                                 <li id="menu-item-6286"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6286"><a
-                                        href="../login/login.html"><div class="loginButton">Login</div></a></li>
+                                        href="../login/login.html">
+                                        <div class="loginButton">Login</div>
+                                    </a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
-        <div class="clearfix"></div>
-        <div id="tribe-events-pg-template" class="high-padding container">
-            <div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-datepicker_format="1" data-category=""
-                data-featured="">
-                <div id="tribe-events-content-wrapper" class="tribe-clearfix"><input type="hidden"
-                        id="tribe-events-list-hash" value=""> <!-- Tribe Bar -->
-                    <!-- Main Events Content -->
-                    <div id="tribe-events-content" class="tribe-events-list">
-                        <!-- List Title -->
-                        <h2 class="tribe-events-page-title">Constituencies</h2> <!-- Notices -->
-                        <!-- List Header -->
-                        <!-- Events Loop -->
-                        <div class="tribe-events-loop">
-                            <!-- Month / Year Headers -->
-                            <!-- Event  -->
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Yuksom Tashiding </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Yangthang </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Maneybong Dentam </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Geyzing Bermiok </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Rinchenpong </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Daramdin </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Soreng-Chakung </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Salghari-Zoom </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Barfung </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Poklok-Kamrang </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Namcheybong </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Melli </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Yuksom Tashiding </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Namthang-Rateypani </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Temi-Namphing </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Rangang-Yangang </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Tumin Lingee </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Khamdong-Singtam </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> West Pendam </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Rhenock </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Chujachen </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Gnathang-Machong </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Namchaybong </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Syari </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Martam-Rumtek </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Upper Tadong </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Arithang </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Gangtok </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Upper Burtuk </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Kabi Lungchok </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Dzongu </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Lachen-Mangan </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                            <div id="post-5716"
-                                class="type-tribe_events post-5716 tribe-clearfix tribe-events-category-voting tribe-events-first">
-                                <h2 class="tribe-events-list-event-title"> Sang </h2>
-                                <a href="../event-form/index.html" class="add-button">Add News/Events</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tribe-clear"></div>
-                </div>
+        <div id="primary" class=" content-area no-sidebar">
+            <!--<div class=""> -->
+            <div class="container">
+                <div class="row">
+                    <main id="main" class="col-md-12 site-main main-content">
+                        <article id="post-6021" class="post-6021 page type-page status-publish hentry">
+                            <div class="entry-content">
+                                <div data-vc-full-width="true" data-vc-full-width-init="false"
+                                    class="vc_row wpb_row vc_row-fluid vc_custom_1493851574796 vc_row-has-fill">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="title-subtile-holder">
+                                                    <h1 class="section-title dark_title">Goals Set
+                                                    </h1>
+                                                    </br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-vc-full-width="true" data-vc-full-width-init="false"
+                                    class="vc_row wpb_row vc_row-fluid vc_custom_1493846070013 vc_row-has-fill lvca-dark-bg footer">
+                                    <aside id="politicalwp_social_share-2"
+                                        class="widget vc_column_vc_container widget_politicalwp_social_share">
+                                        <div class="footer-social-links">
+                                            <ul class="share-social-links">
+                                                <li class="facebook"> <a href="http://facebook.com/" target="_blank"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                                <li class="twitter"> <a href="https://twitter.com/envato"
+                                                        target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="googleplus"> <a href="http://plus.google.com/"
+                                                        target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                                <li class="pinterest"> <a href="http://pinterest.com/"
+                                                        target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </aside>
+                                </div>
+                                <div class="vc_row-full-width vc_clearfix"></div>
+                                <div class="clearfix"></div>
+                            </div><!-- .entry-content -->
+                            <div class="clearfix"></div>
 
+                        </article><!-- #post-## -->
+                    </main>
+                </div>
             </div>
         </div>
-        <div class="vc_row-full-width vc_clearfix"></div>
-        <div data-vc-full-width="true" data-vc-full-width-init="false"
-            class="vc_row wpb_row vc_row-fluid vc_custom_1493846070013 vc_row-has-fill lvca-dark-bg footer">
-            <aside id="politicalwp_social_share-2"
-                class="widget vc_column_vc_container widget_politicalwp_social_share">
-                <div class="footer-social-links">
-                    <ul class="share-social-links">
-                        <li class="facebook"> <a href="http://facebook.com/" target="_blank"><i
-                                    class="fa fa-facebook"></i></a></li>
-                        <li class="twitter"> <a href="https://twitter.com/envato" target="_blank"><i
-                                    class="fa fa-twitter"></i></a></li>
-                        <li class="googleplus"> <a href="http://plus.google.com/" target="_blank"><i
-                                    class="fa fa-google-plus"></i></a></li>
-                        <li class="pinterest"> <a href="http://pinterest.com/" target="_blank"><i
-                                    class="fa fa-pinterest"></i></a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
-        <div class="vc_row-full-width vc_clearfix"></div>
-        <div class="clearfix"></div>
         <style type="text/css">
             .politicalwp--sidepanel {
                 background: #fff none repeat scroll 0 0;
