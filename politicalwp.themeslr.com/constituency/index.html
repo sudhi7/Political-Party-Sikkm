@@ -14,6 +14,7 @@
     <title>SKM</title>
     <link rel="alternate" type="text/calendar" title="PoliticalWP &raquo; iCal Feed"
         href="events/indexedf3.html?ical=1" />
+    <script type="text/javascript" src="paging.js"></script>
     <script type="text/javascript" data-cfasync="false">var mi_version = '7.12.2';
         var mi_track_user = true;
         var mi_no_track_reason = '';
@@ -704,6 +705,40 @@
             padding: 10px;
             border-radius: 20px;
         }
+
+        th {
+            background-color: #cfd8dc;
+        }
+
+        td {
+            text-align: left;
+        }
+
+        .fa-eye {
+            color: #6b6b6b;
+        }
+
+        .pager-nav {
+            margin: 16px 0;
+        }
+
+        .pager-nav span {
+            display: inline-block;
+            padding: 4px 8px;
+            margin: 1px;
+            cursor: pointer;
+            font-size: 14px;
+            background-color: #FFFFFF;
+            border: 1px solid #e1e1e1;
+            border-radius: 3px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        }
+
+        .pager-nav span:hover,
+        .pager-nav .pg-selected {
+            background-color: #cfd8dc;
+            border: 1px solid #CCCCCC;
+        }
     </style>
     <style type="text/css" data-type="vc_shortcodes-custom-css">
         .vc_custom_1493795314622 {
@@ -1046,17 +1081,223 @@
                                 </div>
                                 <div class="vc_row-full-width vc_clearfix"></div>
                                 <div data-vc-full-width="true" data-vc-full-width-init="false"
+                                    class="vc_row wpb_row vc_row-fluid vc_custom_1493795314622 vc_row-has-fill lvca-dark-bg">
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table id="pager" class="table table-striped table-bordered"
+                                                style="width:100%">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Sn</th>
+                                                        <th>Name</th>
+                                                        <th>Gender</th>
+                                                        <th>Post in Party</th>
+                                                        <th>Email</th>
+                                                        <th>Constituency</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Bal Bdr Rai</td>
+                                                        <td>Male</td>
+                                                        <td>Member</td>
+                                                        <td>tango@gmail.com</td>
+                                                        <td>
+                                                            Constituency-name
+                                                        </td>
+                                                        <td>
+                                                            <div
+                                                                class="table-actions d-flex align-items-center gap-3 fs-6">
+
+                                                                <a href="../application-view/index.html"
+                                                                    class="text-primary" data-bs-toggle="tooltip"
+                                                                    data-bs-placement="bottom" title=""
+                                                                    data-bs-original-title="Views" aria-label="Views"><i
+                                                                        class="fa fa-eye"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div id="pageNavPosition" class="pager-nav"></div>
+
+                                            <script src="paging.js" defer></script>
+
+                                            <script>
+                                                let pager = new Pager('pager', 10);
+
+                                                pager.init();
+                                                pager.showPageNav('pager', 'pageNavPosition');
+                                                pager.showPage(1);
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row-full-width vc_clearfix"></div>
+                                <div data-vc-full-width="true" data-vc-full-width-init="false"
                                     class="vc_row wpb_row vc_row-fluid vc_custom_1485978162518 vc_row-has-fill">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper">
-                                                <div class="vc_empty_space" style="height: 32px"><span
-                                                        class="vc_empty_space_inner"></span></div>
-                                                <div class="title-subtile-holder">
-                                                    <h1 class="section-title dark_title">Members</h1>
+                                                <div class="vc_empty_space" style="height: 32px">
+                                                    <span class="vc_empty_space_inner"></span>
                                                 </div>
-                                                <div class="vc_empty_space" style="height: 20px"><span
-                                                        class="vc_empty_space_inner"></span></div>
+                                                <div class="title-subtile-holder">
+                                                    <h1 class="section-title dark_title">Members
+                                                    </h1>
+                                                </div>
+                                                <div class="vc_empty_space" style="height: 20px">
+                                                    <span class="vc_empty_space_inner"></span>
+                                                </div>
                                                 <div class="lvca-team-members lvca-style1 lvca-container">
                                                     <div class="lvca-team-member-wrapper lvca-threecol">
                                                         <div class="lvca-team-member">
@@ -1068,10 +1309,14 @@
                                                                     sizes="(max-width: 700px) 100vw, 700px" />
                                                             </div>
                                                             <div class="lvca-team-member-text">
-                                                                <h3 class="lvca-title">Prem Singh Tamang (Golay)</h3>
-                                                                <div class="lvca-team-member-position">Chief Minister,
-                                                                    Minister of Home Department, Finance Department,
-                                                                    Excise Department, I.T. Department, Planning and
+                                                                <h3 class="lvca-title">Prem Singh
+                                                                    Tamang (Golay)</h3>
+                                                                <div class="lvca-team-member-position">
+                                                                    Chief Minister,
+                                                                    Minister of Home Department,
+                                                                    Finance Department,
+                                                                    Excise Department, I.T.
+                                                                    Department, Planning and
                                                                     Development Department.</div>
                                                             </div>
                                                         </div>
@@ -1086,8 +1331,10 @@
                                                                     sizes="(max-width: 700px) 100vw, 700px" />
                                                             </div>
                                                             <div class="lvca-team-member-text">
-                                                                <h3 class="lvca-title">Arun Kumar Upreti</h3>
-                                                                <div class="lvca-team-member-position">Speaker</div>
+                                                                <h3 class="lvca-title">Arun Kumar
+                                                                    Upreti</h3>
+                                                                <div class="lvca-team-member-position">
+                                                                    Speaker</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1101,8 +1348,10 @@
                                                                     sizes="(max-width: 700px) 100vw, 700px" />
                                                             </div>
                                                             <div class="lvca-team-member-text">
-                                                                <h3 class="lvca-title">Sangay Lepcha</h3>
-                                                                <div class="lvca-team-member-position">Deputy Speaker of
+                                                                <h3 class="lvca-title">Sangay Lepcha
+                                                                </h3>
+                                                                <div class="lvca-team-member-position">
+                                                                    Deputy Speaker of
                                                                     the State </div>
                                                             </div>
                                                         </div>
@@ -1117,17 +1366,22 @@
                                                                     sizes="(max-width: 700px) 100vw, 700px" />
                                                             </div>
                                                             <div class="lvca-team-member-text">
-                                                                <h3 class="lvca-title">Kunga Nima Lepcha</h3>
-                                                                <div class="lvca-team-member-position">Minister of
-                                                                    Education Department, Land Revenue and Disaster
-                                                                    Management, Law Department, Sports and Youth Affairs
+                                                                <h3 class="lvca-title">Kunga Nima
+                                                                    Lepcha</h3>
+                                                                <div class="lvca-team-member-position">
+                                                                    Minister of
+                                                                    Education Department, Land
+                                                                    Revenue and Disaster
+                                                                    Management, Law Department,
+                                                                    Sports and Youth Affairs
                                                                     Department</div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="vc_empty_space" style="height: 40px"><span
-                                                        class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_empty_space" style="height: 40px">
+                                                    <span class="vc_empty_space_inner"></span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1139,35 +1393,47 @@
                                         <div class="vc_column-inner vc_custom_1450339501388">
                                             <div class="wpb_wrapper">
                                                 <div class="title-subtile-holder">
-                                                    <h1 class="section-title dark_title">Latest News</h1>
+                                                    <h1 class="section-title dark_title">Latest News
+                                                    </h1>
                                                 </div>
                                                 <div class="blog-posts tslr-blog-posts-shortcode wow row fadeIn">
                                                     <div class="odd-post col-md-4">
                                                         <article class="single-post list-view">
                                                             <div class="blog_custom">
                                                                 <!-- POST THUMBNAIL -->
-                                                                <div class="col-md-12 post-thumbnail"> <img
-                                                                        class="blog_post_image"
+                                                                <div class="col-md-12 post-thumbnail">
+                                                                    <img class="blog_post_image"
                                                                         src="../wp-content/uploads/news/news_001.jpg"
                                                                         alt="Launch of DBU’s in India" />
                                                                 </div>
                                                                 <!-- POST DETAILS -->
                                                                 <div class="post-details col-md-12">
-                                                                    <h3 class="text-center post-name row"> Launch of
+                                                                    <h3 class="text-center post-name row">
+                                                                        Launch of
                                                                         DBU’s in India </h3>
                                                                     <div class="post-excerpt text-center row">
-                                                                        <p>Attended the launch of 75 Digital Banking
-                                                                            Units (DBUs) in 75 districts of the country
-                                                                            by the Hon'ble PM Shri Narendra Modi Ji via
+                                                                        <p>Attended the launch of 75
+                                                                            Digital Banking
+                                                                            Units (DBUs) in 75
+                                                                            districts of the country
+                                                                            by the Hon'ble PM Shri
+                                                                            Narendra Modi Ji via
                                                                             video conference.
 
-                                                                            The DBUs are being dedicated to the nation
-                                                                            in a view to ensure that the benefits of
-                                                                            digital banking will reach every corner of
-                                                                            the country. It will provide a variety of
-                                                                            digital banking services and enable the
-                                                                            customer to have convenient access and
-                                                                            enhanced digital experience of banking
+                                                                            The DBUs are being
+                                                                            dedicated to the nation
+                                                                            in a view to ensure that
+                                                                            the benefits of
+                                                                            digital banking will
+                                                                            reach every corner of
+                                                                            the country. It will
+                                                                            provide a variety of
+                                                                            digital banking services
+                                                                            and enable the
+                                                                            customer to have
+                                                                            convenient access and
+                                                                            enhanced digital
+                                                                            experience of banking
                                                                             facilities.
                                                                     </div>
                                                                 </div>
@@ -1178,28 +1444,42 @@
                                                         <article class="single-post list-view">
                                                             <div class="blog_custom">
                                                                 <!-- POST THUMBNAIL -->
-                                                                <div class="col-md-12 post-thumbnail"> <img
-                                                                        class="blog_post_image"
+                                                                <div class="col-md-12 post-thumbnail">
+                                                                    <img class="blog_post_image"
                                                                         src="../wp-content/uploads/news/news_002.jpg"
-                                                                        alt="HCM meets Smt. Draupadi Murmu Ji" /></div>
+                                                                        alt="HCM meets Smt. Draupadi Murmu Ji" />
+                                                                </div>
                                                                 <!-- POST DETAILS -->
                                                                 <div class="post-details col-md-12">
-                                                                    <h3 class="text-center post-name row">HCM meets Smt.
+                                                                    <h3 class="text-center post-name row">
+                                                                        HCM meets Smt.
                                                                         Draupadi Murmu Ji
                                                                     </h3>
                                                                     <div class="post-excerpt text-center row">
-                                                                        <p>We had a fruitful meeting with the NDA
-                                                                            presidential candidate Smt. Draupadi Murmu
-                                                                            Ji in the presence of Hon’ble Union Minister
-                                                                            Shri Sarbananda Sonowal Ji, Shri Gajendra
-                                                                            Singh Shekhawat Ji & National Spokesperson
-                                                                            of BJP Dr Sambit Patra Ji at Mayfair Hotel,
+                                                                        <p>We had a fruitful meeting
+                                                                            with the NDA
+                                                                            presidential candidate
+                                                                            Smt. Draupadi Murmu
+                                                                            Ji in the presence of
+                                                                            Hon’ble Union Minister
+                                                                            Shri Sarbananda Sonowal
+                                                                            Ji, Shri Gajendra
+                                                                            Singh Shekhawat Ji &
+                                                                            National Spokesperson
+                                                                            of BJP Dr Sambit Patra
+                                                                            Ji at Mayfair Hotel,
                                                                             Siliguri.
 
-                                                                            As a part of the NDA, we expressed our
-                                                                            commitment to wholeheartedly support her in
-                                                                            the upcoming presidential election and
-                                                                            collectively work for the welfare of Sikkim
+                                                                            As a part of the NDA, we
+                                                                            expressed our
+                                                                            commitment to
+                                                                            wholeheartedly support
+                                                                            her in
+                                                                            the upcoming
+                                                                            presidential election
+                                                                            and
+                                                                            collectively work for
+                                                                            the welfare of Sikkim
                                                                             and our country.
                                                                     </div>
                                                                 </div>
@@ -1210,34 +1490,53 @@
                                                         <article class="single-post list-view">
                                                             <div class="blog_custom">
                                                                 <!-- POST THUMBNAIL -->
-                                                                <div class="col-md-12 post-thumbnail"> <img
-                                                                        class="blog_post_image"
+                                                                <div class="col-md-12 post-thumbnail">
+                                                                    <img class="blog_post_image"
                                                                         src="../wp-content/uploads/news/news_003.jpg"
                                                                         alt="State Level Entepreneurs meet held at Manan Kendra" />
                                                                 </div>
                                                                 <!-- POST DETAILS -->
                                                                 <div class="post-details col-md-12">
-                                                                    <h3 class="text-center post-name row">State Level
-                                                                        Entepreneurs meet held at Manan Kendra</h3>
+                                                                    <h3 class="text-center post-name row">
+                                                                        State Level
+                                                                        Entepreneurs meet held at
+                                                                        Manan Kendra</h3>
                                                                     <div class="post-excerpt text-center row">
-                                                                        <p>Delighted to be a part of the State Level
-                                                                            Entrepreneurs Meet at Manan Kendra. In
-                                                                            addition to launching various products,
-                                                                            cheques under the Skilled Youth Startup
-                                                                            Scheme were handed out to the beneficiaries
+                                                                        <p>Delighted to be a part of
+                                                                            the State Level
+                                                                            Entrepreneurs Meet at
+                                                                            Manan Kendra. In
+                                                                            addition to launching
+                                                                            various products,
+                                                                            cheques under the
+                                                                            Skilled Youth Startup
+                                                                            Scheme were handed out
+                                                                            to the beneficiaries
                                                                             as assistance.
 
-                                                                            The SEED cell is performing competently,
-                                                                            serving as a bridge between the departments
-                                                                            and the local entrepreneurs. We hope this
-                                                                            initiative will benefit our aspiring
-                                                                            entrepreneurs to establish themselves and be
+                                                                            The SEED cell is
+                                                                            performing competently,
+                                                                            serving as a bridge
+                                                                            between the departments
+                                                                            and the local
+                                                                            entrepreneurs. We hope
+                                                                            this
+                                                                            initiative will benefit
+                                                                            our aspiring
+                                                                            entrepreneurs to
+                                                                            establish themselves and
+                                                                            be
                                                                             self-sufficient.
 
-                                                                            Entrepreneurship can assist in economic
-                                                                            growth, and our government is consistently
-                                                                            encouraging and helping our youths and
-                                                                            individuals in this regard.</p>
+                                                                            Entrepreneurship can
+                                                                            assist in economic
+                                                                            growth, and our
+                                                                            government is
+                                                                            consistently
+                                                                            encouraging and helping
+                                                                            our youths and
+                                                                            individuals in this
+                                                                            regard.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1245,7 +1544,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="see-more-section"><a href="../events/list/index.html"
-                                                        class="see-more-button">See More News</a></div>
+                                                        class="see-more-button">See More News</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1265,28 +1565,39 @@
                                                         <article class="single-post list-view">
                                                             <div class="blog_custom">
                                                                 <!-- POST THUMBNAIL -->
-                                                                <div class="col-md-12 post-thumbnail"> <img
-                                                                        class="blog_post_image"
+                                                                <div class="col-md-12 post-thumbnail">
+                                                                    <img class="blog_post_image"
                                                                         src="../wp-content/uploads/news/news_001.jpg"
                                                                         alt="Launch of DBU’s in India" />
                                                                 </div>
                                                                 <!-- POST DETAILS -->
                                                                 <div class="post-details col-md-12">
-                                                                    <h3 class="text-center post-name row"> Launch of
+                                                                    <h3 class="text-center post-name row">
+                                                                        Launch of
                                                                         DBU’s in India </h3>
                                                                     <div class="post-excerpt text-center row">
-                                                                        <p>Attended the launch of 75 Digital Banking
-                                                                            Units (DBUs) in 75 districts of the country
-                                                                            by the Hon'ble PM Shri Narendra Modi Ji via
+                                                                        <p>Attended the launch of 75
+                                                                            Digital Banking
+                                                                            Units (DBUs) in 75
+                                                                            districts of the country
+                                                                            by the Hon'ble PM Shri
+                                                                            Narendra Modi Ji via
                                                                             video conference.
 
-                                                                            The DBUs are being dedicated to the nation
-                                                                            in a view to ensure that the benefits of
-                                                                            digital banking will reach every corner of
-                                                                            the country. It will provide a variety of
-                                                                            digital banking services and enable the
-                                                                            customer to have convenient access and
-                                                                            enhanced digital experience of banking
+                                                                            The DBUs are being
+                                                                            dedicated to the nation
+                                                                            in a view to ensure that
+                                                                            the benefits of
+                                                                            digital banking will
+                                                                            reach every corner of
+                                                                            the country. It will
+                                                                            provide a variety of
+                                                                            digital banking services
+                                                                            and enable the
+                                                                            customer to have
+                                                                            convenient access and
+                                                                            enhanced digital
+                                                                            experience of banking
                                                                             facilities.
                                                                     </div>
                                                                 </div>
@@ -1297,28 +1608,42 @@
                                                         <article class="single-post list-view">
                                                             <div class="blog_custom">
                                                                 <!-- POST THUMBNAIL -->
-                                                                <div class="col-md-12 post-thumbnail"> <img
-                                                                        class="blog_post_image"
+                                                                <div class="col-md-12 post-thumbnail">
+                                                                    <img class="blog_post_image"
                                                                         src="../wp-content/uploads/news/news_002.jpg"
-                                                                        alt="HCM meets Smt. Draupadi Murmu Ji" /></div>
+                                                                        alt="HCM meets Smt. Draupadi Murmu Ji" />
+                                                                </div>
                                                                 <!-- POST DETAILS -->
                                                                 <div class="post-details col-md-12">
-                                                                    <h3 class="text-center post-name row">HCM meets Smt.
+                                                                    <h3 class="text-center post-name row">
+                                                                        HCM meets Smt.
                                                                         Draupadi Murmu Ji
                                                                     </h3>
                                                                     <div class="post-excerpt text-center row">
-                                                                        <p>We had a fruitful meeting with the NDA
-                                                                            presidential candidate Smt. Draupadi Murmu
-                                                                            Ji in the presence of Hon’ble Union Minister
-                                                                            Shri Sarbananda Sonowal Ji, Shri Gajendra
-                                                                            Singh Shekhawat Ji & National Spokesperson
-                                                                            of BJP Dr Sambit Patra Ji at Mayfair Hotel,
+                                                                        <p>We had a fruitful meeting
+                                                                            with the NDA
+                                                                            presidential candidate
+                                                                            Smt. Draupadi Murmu
+                                                                            Ji in the presence of
+                                                                            Hon’ble Union Minister
+                                                                            Shri Sarbananda Sonowal
+                                                                            Ji, Shri Gajendra
+                                                                            Singh Shekhawat Ji &
+                                                                            National Spokesperson
+                                                                            of BJP Dr Sambit Patra
+                                                                            Ji at Mayfair Hotel,
                                                                             Siliguri.
 
-                                                                            As a part of the NDA, we expressed our
-                                                                            commitment to wholeheartedly support her in
-                                                                            the upcoming presidential election and
-                                                                            collectively work for the welfare of Sikkim
+                                                                            As a part of the NDA, we
+                                                                            expressed our
+                                                                            commitment to
+                                                                            wholeheartedly support
+                                                                            her in
+                                                                            the upcoming
+                                                                            presidential election
+                                                                            and
+                                                                            collectively work for
+                                                                            the welfare of Sikkim
                                                                             and our country.
                                                                     </div>
                                                                 </div>
@@ -1329,34 +1654,53 @@
                                                         <article class="single-post list-view">
                                                             <div class="blog_custom">
                                                                 <!-- POST THUMBNAIL -->
-                                                                <div class="col-md-12 post-thumbnail"> <img
-                                                                        class="blog_post_image"
+                                                                <div class="col-md-12 post-thumbnail">
+                                                                    <img class="blog_post_image"
                                                                         src="../wp-content/uploads/news/news_003.jpg"
                                                                         alt="State Level Entepreneurs meet held at Manan Kendra" />
                                                                 </div>
                                                                 <!-- POST DETAILS -->
                                                                 <div class="post-details col-md-12">
-                                                                    <h3 class="text-center post-name row">State Level
-                                                                        Entepreneurs meet held at Manan Kendra</h3>
+                                                                    <h3 class="text-center post-name row">
+                                                                        State Level
+                                                                        Entepreneurs meet held at
+                                                                        Manan Kendra</h3>
                                                                     <div class="post-excerpt text-center row">
-                                                                        <p>Delighted to be a part of the State Level
-                                                                            Entrepreneurs Meet at Manan Kendra. In
-                                                                            addition to launching various products,
-                                                                            cheques under the Skilled Youth Startup
-                                                                            Scheme were handed out to the beneficiaries
+                                                                        <p>Delighted to be a part of
+                                                                            the State Level
+                                                                            Entrepreneurs Meet at
+                                                                            Manan Kendra. In
+                                                                            addition to launching
+                                                                            various products,
+                                                                            cheques under the
+                                                                            Skilled Youth Startup
+                                                                            Scheme were handed out
+                                                                            to the beneficiaries
                                                                             as assistance.
 
-                                                                            The SEED cell is performing competently,
-                                                                            serving as a bridge between the departments
-                                                                            and the local entrepreneurs. We hope this
-                                                                            initiative will benefit our aspiring
-                                                                            entrepreneurs to establish themselves and be
+                                                                            The SEED cell is
+                                                                            performing competently,
+                                                                            serving as a bridge
+                                                                            between the departments
+                                                                            and the local
+                                                                            entrepreneurs. We hope
+                                                                            this
+                                                                            initiative will benefit
+                                                                            our aspiring
+                                                                            entrepreneurs to
+                                                                            establish themselves and
+                                                                            be
                                                                             self-sufficient.
 
-                                                                            Entrepreneurship can assist in economic
-                                                                            growth, and our government is consistently
-                                                                            encouraging and helping our youths and
-                                                                            individuals in this regard.</p>
+                                                                            Entrepreneurship can
+                                                                            assist in economic
+                                                                            growth, and our
+                                                                            government is
+                                                                            consistently
+                                                                            encouraging and helping
+                                                                            our youths and
+                                                                            individuals in this
+                                                                            regard.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1364,7 +1708,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="see-more-section"><a href="../events/list/index.html"
-                                                        class="see-more-button">See More Events</a></div>
+                                                        class="see-more-button">See More Events</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
